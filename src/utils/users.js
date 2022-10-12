@@ -43,7 +43,7 @@ const getUser = (id) => {
     if(!user){
         return undefined
     }
-    return user[0]
+    return user
 }
 
 const getUsersInRoom = (room) => {
